@@ -1,0 +1,53 @@
+*{
+    font-family: 'Spartan', sans-serif;
+}
+
+.box12,
+.bloc3{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.img1,
+.img2,
+.img3{
+    border-radius: 50%;
+}
+
+.bloc3{
+    justify-content: space-between;
+    color: white;
+
+}
+
+.card
+{
+    margin-right: 50px;
+    background-color: #512050;
+   
+}
+
+.card2{
+    align-self:center;
+    flex-direction: column;
+    margin-top: 43px;
+}
+.box12{
+    color: #3B213A;
+}
+.bloc2{
+    width: 20vw;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagecard1 {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
