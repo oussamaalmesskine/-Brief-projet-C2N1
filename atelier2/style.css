@@ -55,6 +55,10 @@ body {
   width: 500px;
   background-color: hsl(228, 56%, 26%);
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
 }
 
 .secondsection p {
@@ -62,6 +66,59 @@ body {
   color: white;
 }
 
-progress#redbar {
-  color: black;
+.progressbar {
+  width: 400px;
+  height: 21px;
+  border-style: solid;
+  border-color: hsl(229, 57%, 11%);
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.bar {
+  width: 290px;
+  height: 15px;
+  background-image: linear-gradient(45deg, #fe9f98, #fb4d92);
+  border-radius: 10px 10px 10px 10px;
+}
+.cercle {
+  background-color: white;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin-left: 275px;
+}
+
+.text2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.path {
+  height: 60;
+  width: 100;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
+  background-color: white;
+  padding-left: 10px;
+  padding-top: 15px;
+  position: relative;
+  top: 30px;
+  right: 30px;
+  border-radius: 8px;
+}
+
+.secondsectionglob {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
 }
