@@ -8,8 +8,10 @@ body {
   font-family: "Raleway", sans-serif;
   background-color: hsl(229, 57%, 11%);
   font-size: 14px;
-  /* background-image: url(/atelier2/images/bg-desktop.png);
-  background-repeat: no-repeat; */
+  background-image: url(/atelier2/images/bg-desktop.png);
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .Container {
@@ -121,4 +123,40 @@ body {
   flex-direction: column;
   align-items: flex-end;
   position: relative;
+}
+
+@media screen and (max-width: 375px) {
+  .body {
+    background-size: 1000%;
+  }
+
+  .secondsection {
+    width: 296px;
+  }
+  .progressbar {
+    width: 250px;
+  }
+
+  .bar {
+    width: 170px;
+  }
+
+  .cercle {
+    margin-left: 155px;
+  }
+
+  .path {
+    width: 150px;
+    height: 70px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 75%);
+    padding-left: 32px;
+    padding-top: 17px;
+    top: 196px;
+    right: 72px;
+    border-radius: 10%;
+  }
+
+  .Container {
+    row-gap: 15px;
+  }
 }
