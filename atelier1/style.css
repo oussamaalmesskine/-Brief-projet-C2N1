@@ -145,11 +145,3 @@ h1 + p {
   position: relative;
   top: 60px;
 }
-
-@media  (max-width: 375) {
-  .Container{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-
-  }

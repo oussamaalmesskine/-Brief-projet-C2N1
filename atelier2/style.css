@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: hsl(229, 57%, 11%);
+  font-size: 14px;
+  /* background-image: url(/atelier2/images/bg-desktop.png);
+  background-repeat: no-repeat; */
+}
+
+.Container {
+  height: 100vh;
+  column-gap: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: self-end;
+  align-content: center;
+}
+
+.firstsection {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px 100px 10px 10px;
+  padding-right: 90px;
+}
+
+.icons {
+  width: 140px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.icons img {
+  background-color: hsl(229, 57%, 11%);
+  padding: 9px;
+  border-radius: 5px;
+}
+
+.secondsection {
+  height: 150px;
+  width: 500px;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px;
+}
+
+.secondsection p {
+  font-weight: 400;
+  color: white;
+}
+
+progress#redbar {
+  color: black;
+}
