@@ -126,7 +126,7 @@ body {
 }
 
 @media screen and (max-width: 375px) {
-  .body {
+  body {
     background-size: 1000%;
   }
 
@@ -153,7 +153,7 @@ body {
     padding-top: 17px;
     top: 196px;
     right: 72px;
-    border-radius: 10%;
+    border-radius: 10% 10% 10% 10%;
   }
 
   .Container {
