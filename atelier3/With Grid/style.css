@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
+  background-color: #edf2f8;
+}
+#container {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  height: 65vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-areas:
+    "box1 box1 box2 box3"
+    "box4 box5 box5 box3";
+  margin-top: 150px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.box1 {
+  padding-left: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 40px;
+  background-color: #733fc8;
+  color: white;
+  grid-area: box1;
+  border-radius: 15px;
+  background-image: url(/atelier3/images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position-x: 468px;
+}
+
+.box2 {
+  padding: 10px;
+  background-color: #49556b;
+  grid-area: box2;
+  color: #f8fcfe;
+  border-radius: 15px;
+}
+.box3 {
+  padding: 10px;
+  background-color: #ffffff;
+  grid-area: box3;
+  border-radius: 15px;
+}
+.box4 {
+  padding: 10px;
+  background-color: #ffffff;
+  grid-area: box4;
+  border-radius: 15px;
+}
+.box5 {
+  padding: 10px;
+  background-color: #18202d;
+  color: #e5ecf6;
+  grid-area: box5;
+  border-radius: 15px;
+}
+
+img {
+  border-radius: 100%;
+}
+
+p {
+  color: #adb0b0;
+  padding-top: 4px;
+}
+
+h3 {
+  font-weight: 600;
+  padding-top: 15px;
+}
+.profile {
+  display: flex;
+}
+.profiletext {
+  display: flex;
+  flex-direction: column;
+  padding-left: 22px;
+  padding-top: 7px;
+}
+
+.text1 {
+  color: grey;
+  padding-top: 13px;
+}
+
+.text2 {
+  color: grey;
+  padding-top: 13px;
+}
+
+.text3 {
+  color: grey;
+  padding-top: 13px;
+}
+
+.text4 {
+  color: grey;
+  padding-top: 13px;
+}
+
+.text5 {
+  color: grey;
+  padding-top: 13px;
+}
+
+.imgpatrick {
+  border: solid #733fc8;
+}
+
+@media screen and (max-width: 375px) {
+  #container {
+    display: contents;
+  }
+
+  .box1 {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-image: url(/atelier3/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-position-x: 164px;
+}
+  }
+
+  .box2 {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .box3 {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .box4 {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .box5 {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+  }
+}
